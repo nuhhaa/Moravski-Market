@@ -1,0 +1,133 @@
+.roditeljNavbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(46, 114, 3, 0.9);
+    width: 100%;
+    height: 8rem;
+}
+
+.podroditeljNavbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: white;
+}
+
+.nazivSajta {
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid black;
+    border: none;
+    font-size: 18px;
+    font-size: bolder;
+}
+
+.kontaktInformacije {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.brojTelefona {
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(223, 0, 45);
+    margin-bottom: -1rem;
+}
+
+.podroditeljNavbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+
+.navigacija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 62rem;
+    height: 2rem;
+    gap: 2rem;
+}
+
+.navigacija a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.navigacija a:hover {
+    color: rgb(237, 205, 24);
+}
+
+.ikonice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 12rem;
+    height: 100%;
+    gap: 1rem;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+.ikonica {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.ikonica:hover {
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.dugmeNavigacija {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+    margin-right: auto;
+    margin-left: 3rem;
+    font-size: 20px;
+    gap: 5px;
+    font-weight: bolder;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.dugmeNavigacija:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}

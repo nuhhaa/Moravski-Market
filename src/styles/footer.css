@@ -1,0 +1,160 @@
+.footerRoditelj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 55rem;
+}
+
+.footerSlika {
+    width: 100%;
+}
+
+.podaci {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33 121 69);
+    color: white;
+}
+
+.linkoviRoditelj {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: 1rem;
+}
+
+.linkoviRoditelj h2 {
+    text-decoration: underline;
+}
+
+.linkovi {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.linkovi a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.linkovi p {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.info a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.info p {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.media a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.media p {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    height: 20%;
+    gap: 1rem;
+}
+
+a {
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.podaci img {
+    margin-right: 1rem;
+}
+
+.footerZadnje {
+    color: white;
+    background-color: rgb(33 121 69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    height: 30rem;
+}
+
+.traka {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    background-color: rgb(245 186 108);
+}
+
+.traka a {
+    color: orangered;
+    text-decoration: none;
+}
+
+.traka p {
+    color: black;
+
+}
