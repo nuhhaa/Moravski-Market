@@ -23,8 +23,8 @@ const Navbar1 = () => {
                     <a className='linkNavigacija' href='/'>Naslovna</a>
                     <a className='linkNavigacija' href='onama'>O nama</a>
                     <a className='linkNavigacija' href='#'>Prodavnica</a>
-                    <a className='linkNavigacija' href='#'>Distributivni centar</a>
                     <a className='linkNavigacija' href='#'>Proizvodjaci</a>
+                    <a className='linkNavigacija' href='distribucija'>Distributivni centar</a>
                     <a className='linkNavigacija' href='#'>Novosti</a>
                     <a className='linkNavigacija' href='#'>Kontakt</a>
                 </div>
