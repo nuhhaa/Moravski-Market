@@ -1,0 +1,24 @@
+.kontaktRoditelj {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 70rem;
+}
+
+.kontaktDete1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 20rem;
+    margin-top: 2rem;
+}
+
+.kontakt {
+    border: 1px solid red;
+    text-align: left;
+}
+
+.kontakt h1 {
+    font-size: 1.6rem;
+}

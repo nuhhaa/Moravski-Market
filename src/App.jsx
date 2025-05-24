@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Naslovna from './pages/Naslovna';
 import Onama from './pages/Onama';
 import Distribucija from './pages/Distribucija';
+import Novosti from './pages/Novosti';
+import Kontakt from './pages/Kontakt';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Naslovna />} />
           <Route path='/onama' element={<Onama />} />
           <Route path='/distribucija' element={<Distribucija />} />
+          <Route path='/novosti' element={<Novosti />} />
+          <Route path='/kontakt' element={<Kontakt />} />
         </Routes>
         <Footer />
       </BrowserRouter>

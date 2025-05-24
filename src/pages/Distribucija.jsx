@@ -1,5 +1,8 @@
 import React from 'react'
 import '../styles/Distribucija.css';
+import Distribucija1 from '../assets/distribucija1.jpeg';
+import Distribucija2 from '../assets/distribucija2.jpeg';
+import Distribucija3 from '../assets/distribucija3.jpeg';
 
 const Distribucija = () => {
     return (
@@ -24,7 +27,11 @@ const Distribucija = () => {
                     <p>Tel: <p className='telefonDistribucija'>061 67 15 941</p></p>
                 </div>
             </div>
-            <div className='slikeDistribucijaRoditelj'>a</div>
+            <div className='slikeDistribucijaRoditelj'>
+                <img src={Distribucija1} alt="Distribucija 1" className='slikaDistribucija1' />
+                <img src={Distribucija2} alt="Distribucija 2" className='slikaDistribucija2' />
+                <img src={Distribucija3} alt="Distribucija 3" className='slikaDistribucija3' />
+            </div>
         </div>
     )
 }
