@@ -1,0 +1,15 @@
+export const products = [
+    { naziv: 'Krem med malina 120g', proizvodjac: 'Poljoprivredno gazdinstvo Munitlaković', vrsta: 'Pčelarski proizvodi', cena: '320' + 'RSD' },
+    { naziv: 'Krem med pomorandza 120g', proizvodjac: 'Poljoprivredno gazdinstvo Munitlaković', vrsta: 'Pčelarski proizvodi', cena: '320' + 'RSD' },
+    { naziv: 'Krem med cimet 120g', proizvodjac: 'Poljoprivredno gazdinstvo Munitlaković', vrsta: 'Pčelarski proizvodi', cena: '320' + 'RSD' },
+    { naziv: 'Sapun Viktorija - Borov katran 100g', proizvodjac: '', vrsta: 'Biljni proizvodi', cena: '395' + 'RSD' },
+    { naziv: 'Katran crnog bora 80g', proizvodjac: '', vrsta: 'Biljni proizvodi', cena: '1250' + 'RSD' },
+    { naziv: 'Borova bio katran krema 80g', proizvodjac: '', vrsta: 'Biljni proizvodi', cena: '565' + 'RSD' },
+    { naziv: 'Zreli sir 1kg', proizvodjac: 'Suvobor mlekara Aleksandar Glišić - Pranjani', vrsta: 'Mlečni proizvodi', cena: '595' + 'RSD' },
+    { naziv: 'Malina zamrznuta 450g', proizvodjac: 'MEDkom plodovi PR Marina Vasilijević', vrsta: 'Zamrznuto voće', cena: '475' + 'RSD' },
+    { naziv: 'Frula suvenir manja', proizvodjac: 'Nam nam suveniri PR Ana Tutunović', vrsta: 'Suveniri', cena: '250' + 'RSD' },
+    { naziv: 'Kablarska kraljica 0.7l u kutiji', proizvodjac: 'Kablarska kraljica DOO - Vrnčani', vrsta: 'Rakije', cena: '2195' + 'RSD' },
+    { naziv: '', proizvodjac: '', vrsta: '', cena: '' + 'RSD' },
+    { naziv: '', proizvodjac: '', vrsta: '', cena: '' + 'RSD' },
+    { naziv: '', proizvodjac: '', vrsta: '', cena: '' + 'RSD' },
+]

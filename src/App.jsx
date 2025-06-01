@@ -7,6 +7,8 @@ import Onama from './pages/Onama';
 import Distribucija from './pages/Distribucija';
 import Novosti from './pages/Novosti';
 import Kontakt from './pages/Kontakt';
+import Proizvodjaci from './pages/Proizvodjaci';
+import Prodavnica from './pages/Prodavnica';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path='/distribucija' element={<Distribucija />} />
           <Route path='/novosti' element={<Novosti />} />
           <Route path='/kontakt' element={<Kontakt />} />
+          <Route path='/proizvodjaci' element={<Proizvodjaci />} />
+          <Route path='/prodavnica' element={<Prodavnica />} />
         </Routes>
         <Footer />
       </BrowserRouter>

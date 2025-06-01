@@ -22,8 +22,8 @@ const Navbar1 = () => {
                 <div className='navigacija'>
                     <a className='linkNavigacija' href='/'>Naslovna</a>
                     <a className='linkNavigacija' href='onama'>O nama</a>
-                    <a className='linkNavigacija' href='#'>Prodavnica</a>
-                    <a className='linkNavigacija' href='#'>Proizvodjaci</a>
+                    <a className='linkNavigacija' href='prodavnica'>Prodavnica</a>
+                    <a className='linkNavigacija' href='proizvodjaci'>Proizvodjaci</a>
                     <a className='linkNavigacija' href='distribucija'>Distributivni centar</a>
                     <a className='linkNavigacija' href='novosti'>Novosti</a>
                     <a className='linkNavigacija' href='kontakt'>Kontakt</a>
